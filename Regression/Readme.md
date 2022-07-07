@@ -1,6 +1,3 @@
-- Data loading and creating dataloader are handled in GrowNet/Regression/data/data.py. If you want to try new data please check the LibSVMRegdata function in data.py for the right format. 
-
-- Individual model class and ensemble architecture are in GrowNet/Reg/models:  mlp.py and dynamic_net.py. 
-You can increase number of hidden layers or change activation function from here: mlp.py
-
-- train.sh will reproduce the results for Music Year Prediction data. You can change the dataset to slice_localization and feature dimension accordingly. You may also want to change hidden layre dimension to 128 or more for slice localization data.
+#### GrowNet을 이용한 california housing data 예측 실습 ####
+- California example using python.ipynb: Grownet github(https://github.com/sbadirli/GrowNet) 에서 제공하는 파일을 기반으로 Regression 폴더 내 main_reg_cv.py 파일을 실행하여 모델 학습 및 예측을 진행
+- California example by GrowNet function.ipynb: main_reg_cv.py 파일의 코드를 이용하여 grownet regression을 실행하는 함수 grownet_reg을 정의하고, 이를 이용하여 모델 학습 및 예측을 진행
